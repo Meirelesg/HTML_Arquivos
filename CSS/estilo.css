@@ -1,0 +1,28 @@
+body{background-color: lightskyblue; font-family: Arial;}
+h1{color:darkred; text-align: Center;}
+table{border-collapse: collapse; width: 50%; margin:10px auto}
+
+/* 1º Estilo de de Tabela */
+
+/* table, tr, th, td{ border: 3px solid black; text-align: center;}
+th, td{padding: 3px;} */
+
+
+/* 2º Estilo de Tabela */
+
+/* th, td{padding: 10px; text-align: center; border-bottom: 3px solid;} */
+
+
+/* 3º Estilo de Tabela */
+
+th,td{padding: 10px; text-align: center;}
+th{background-color: blue; color: white}
+tbody > tr:nth-child(){background-color: crimson;}
+
+/* nth-child(odd) --> impar
+ nth-child(odd) --> Par */
+
+ tbody > tr:hover{text-decoration: underline; cursor:pointer;}
+
+
+
